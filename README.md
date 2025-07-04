@@ -44,5 +44,8 @@ Congratulations! You have won $5000. Click here to claim your prize.
 Output:
 Prediction: scam (confidence: 0.98)
 
+**Demo** 
+Live app:https://scan-detector-backend.onrender.com
+
 **⚡ License**
 MIT License.
