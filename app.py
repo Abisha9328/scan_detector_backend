@@ -1,6 +1,6 @@
 import gradio as gr
 from transformers import pipeline
-
+import os
 # Load the classifier
 classifier = pipeline(
     "zero-shot-classification",
@@ -27,4 +27,7 @@ demo = gr.Interface(
 
 # Launch
 
-demo.launch(server_name="0.0.0.0", server_port=8080)
+
+
+port = int(os.environ.get("PORT", 7860))
+demo.launch(server_name="0.0.0.0", server_port=port)
