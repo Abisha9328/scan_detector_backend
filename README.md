@@ -45,7 +45,7 @@ Output:
 Prediction: scam (confidence: 0.98)
 
 **Demo** 
-Live app:https://scan-detector-backend.onrender.com
+Live app:https://huggingface.co/spaces/Abisha2005/scam-detector
 
 **⚡ License**
 MIT License.
